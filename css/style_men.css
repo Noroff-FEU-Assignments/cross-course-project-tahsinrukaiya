@@ -44,6 +44,28 @@ nav ul li a:hover{
      color: #393E46;
 }
 
+.search_box{
+    display: flex;
+    
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+
+  }
+  
+  .search_box input{
+    border: none;
+    height: 100%;
+    width: 400px;
+    outline: none;
+    background: white;
+  }
 .men_banner{
     background-image: url(../images/men.jpg);
+    height: 400px;
+    width: 700px;
+    margin-top: 170px;
+    padding: 30px;
+    display: flex;
+    float: right;
 }

@@ -9,12 +9,12 @@ nav img{
 }
 .top_navigation{
     background-color: #393E46;
-    opacity: 0.8;
+    height: 145px;
     position: fixed;
     top: 0;
     left:0;
     width:100%;
-    height: 100px;
+    
     padding: 10px, 90px;
     box-sizing: border-box;
    
@@ -40,4 +40,34 @@ nav ul li a{
 nav ul li a:hover{
      background:#393E46;
      opacity: .3;
+}
+
+
+.search_box{
+    display: flex;
+    
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+    
+  
+  }
+  
+  .search_box input{
+    border: none;
+    height: 100%;
+    width: 400px;
+    outline: none;
+    background: white;
+  }
+
+.women_banner{
+    background-image: url(../images/women.jpg);
+    height: 400px;
+    width: 700px;
+    margin-top: 170px;
+    padding: 30px;
+    display: flex;
+    float: right;
+
 }
