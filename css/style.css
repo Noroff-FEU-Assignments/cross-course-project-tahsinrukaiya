@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 
@@ -51,18 +51,16 @@ nav ul li a:hover{
 .search_box{
   display: flex;
   float: right;
- 
+  padding: 10px;
   height: 35px;
   line-height: 35px;
-  margin-top: 65px;
-  
-
+  margin-top: -20px;
 }
 
 .search_box input{
   border: none;
   height: 100%;
-  width: 400px;
+  width: 600px;
   outline: none;
   background: white;
 }
