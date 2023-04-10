@@ -49,6 +49,11 @@ nav ul li a:hover{
      color: #393E46;
 }
 
+.fa-solid fa-basket-shopping-simple{
+  color: white;
+  
+}
+
 .search_box{
   display: flex;
   float: right;
