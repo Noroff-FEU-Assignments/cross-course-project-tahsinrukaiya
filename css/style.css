@@ -214,8 +214,7 @@ footer a{
 }
 
 footer a:hover{
-   color:#945c54;
-
+  transform: scale(1.07);
 }
 
 .container{
@@ -270,14 +269,40 @@ form button{
 form button:hover{
 color:#393E46;
 background-color: white;
-
 }
 
 .footer_bottom{
   display: flex;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  padding: 3px;
+  font-size: 16px;
+  padding-left: 3em;
+  margin: 0 10px 0 0;
+  
 }
-
+.fa-facebook{
+  margin: 0 0px 5px 5px;
+}
+.fa-instagram{
+   margin: 0 3px 5px 5px;
+}
 .copyright{
   margin-right: auto;
+}
+
+/*---------------------------------------------MEDIA QUERY------------------------------------------------------*/
+
+@media only screen and (max-width: 500px){
+  .top_navigation ul{
+      flex-direction:column;
+      flex-wrap:wrap;
+      width:100%;
+  }
+  
+  .top_navigation li{
+      flex-direction: column;
+      flex-wrap: wrap;
+  }  
+    
+  
 }
