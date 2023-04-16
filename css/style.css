@@ -9,6 +9,8 @@ body{
 nav img{
     padding: 7px;
     height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .top_navigation{
     background-color: #393E46;
@@ -61,7 +63,7 @@ nav ul li a:hover{
   padding: 10px;
   height: 35px;
   line-height: 35px;
-  margin-top: -20px;
+  margin-top: -30px;
 }
 
 .search_box input{
@@ -303,7 +305,17 @@ background-color: white;
   .top_navigation li{
       flex-direction: column;
       flex-wrap: wrap;
+      background: #393E46;
+      top: 80px;
+      left: 0;
+      text-align: center;
   }  
+
+  .top_navigation li a{
+    font-size: 15px;
+}  
+
+
     
   
 }
