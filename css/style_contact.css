@@ -17,6 +17,7 @@ nav img{
     height: 140px;
     padding: 10px, 90px;
     box-sizing: border-box;  
+    z-index: 2;
 }
 
 nav ul{
@@ -69,7 +70,6 @@ nav ul li a:hover{
     
   }
 
-
   h3{
     font-weight: 100;
     text-align: center;
@@ -111,3 +111,17 @@ nav ul li a:hover{
   .message_btn:hover{
     transform: scale(1.02);
   }
+
+  footer{
+    background-color: #393E46;
+    color:white;
+    padding: 4rem 1rem;
+    height: 200px;
+    margin-top: 60% !important;
+  }
+
+  footer h3 {
+    font-weight:100;
+    color: white;
+  }
+  
