@@ -70,19 +70,27 @@ nav ul li a:hover{
 
 .search_box{
   display: flex;
-  float: right;
-  padding: 10px;
+  margin: auto 0;
   height: 35px;
   line-height: 35px;
-  margin-top: -30px;
+  float: right;
+  padding: 20px;
+
 }
 
 .search_box input{
   border: none;
   height: 100%;
-  width: 600px;
+  width: 400px;
   outline: none;
   background: white;
+  padding: 0 10px;
+}
+
+.fa-magnifying-glass{
+  font-size: 20px;
+  color: white;
+  padding: 10px;
 }
 
 .banner{
@@ -306,7 +314,7 @@ background-color: white;
 
 /*---------------------------------------------MEDIA QUERY------------------------------------------------------*/
 
-@media only screen and (max-width:860px){
+@media only screen and (max-width:1250px){
   .top_navigation ul{
       flex-direction:column;
       flex-wrap:wrap;
@@ -372,7 +380,18 @@ color:#393E46;
 }
 
 .search_box{
-  display:block;
+  display:inline flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 
+.search_box input{
+  border: none;
+  height: 90%;
+  width: 300px;
+  outline: none;
+  background: white;
+  padding: 0 10px;
+}
 }
