@@ -75,16 +75,19 @@ footer{
     padding: 0 10px;
 }
 
-.userinfo_submitbtn input{
+.userinfo_submitbtn a{
     display: block;
-    color:white;
+    text-align: center;
+    text-decoration: none;
     background:#393E46;
     width: 100%;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px;
     border: none;
     border-radius: 3px;  
+    color: white;
+    
 }
 
 @media (max-width: 600px){
