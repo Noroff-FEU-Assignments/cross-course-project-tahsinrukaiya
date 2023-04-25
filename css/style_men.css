@@ -3,7 +3,7 @@
 .men_banner{
     background-image: url(../images/men.jpg);
     height: 350px;
-    width: 50%;
+    width: 40%;
     margin-top: 170px;
     padding: 30px;
     display: block;
@@ -16,6 +16,8 @@
   font-weight: 100;
   margin-top: 0%;
   text-align: left;
+  background: rgba(0, 0, 0 , .5);
+  padding: 15px;
 }
   /*-------------------------DISPLAYING PRODUCT-CARD CONTAINING MEN'S JACKET IMAGES-------------------------------------*/
 
