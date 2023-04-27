@@ -98,7 +98,7 @@ nav ul li a:hover{
     height: 100vh;
     background-image: url('../images/Fjord_re.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center 100%; 
 }
 
 .banner_text{
@@ -200,19 +200,21 @@ nav ul li a:hover{
   height: 100vh;
   background-image: url('../images/sale.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center 100%; 
   margin-top: 5%;
 }
 
 .sale_banner_text{
 position: absolute;
-margin-top: 23%;
+margin-top: 24%;
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
 color: white;
 font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
+
+
 
 
 /*--------------------------------HERE BEGINS THE FOOTER STYLING-------------------------------------------------*/
@@ -314,7 +316,7 @@ background-color: white;
 
 /*---------------------------------------------MEDIA QUERY------------------------------------------------------*/
 
-@media only screen and (max-width:1250px){
+@media only screen and (max-width:853px){
   .top_navigation ul{
       flex-direction:column;
       flex-wrap:wrap;
