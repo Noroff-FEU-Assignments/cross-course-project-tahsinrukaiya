@@ -85,4 +85,20 @@ footer{
     margin-top: 50% !important;
   }
   
+
+  @media only screen and (max-width:853px){
+    .small_container{
+        flex-direction: column;
+     }
+
+
+     .small_container .gallery img{
+        padding-top: 20%;
+        height: 50%;
+        width: 100%;
+        display: block;
+     }
+
+
+  }
   

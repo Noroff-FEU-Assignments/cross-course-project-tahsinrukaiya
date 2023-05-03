@@ -8,11 +8,10 @@ footer{
 
 .form_container{ 
     width: 100%;
-    margin-left: 20%;
     background-color:white;
     max-width: 650px;
-    padding: 28px;
-    margin-top: 15%;
+    margin-top: 100px;
+    padding-left: 20px;
     border-radius: 10px;
     border-color: #393E46;
 }
@@ -86,13 +85,15 @@ footer{
     padding: 10px;
     border: none;
     border-radius: 3px;  
-    color: white;
-    
+    color: white;  
 }
 
 @media (max-width: 600px){
-    .form_container{
-       min-width: 280px;
+
+    .form_container{ 
+        min-width: 200px;
+        padding: 30px;
+        margin-top: 100px;
     }
 
     .users_input_box{
@@ -107,6 +108,7 @@ footer{
     .users_info{
         max-height: 380px;
         overflow: auto;
+        padding: 60px;
     }
     .users_info::-webkit-scrollbar{
         width: 0;

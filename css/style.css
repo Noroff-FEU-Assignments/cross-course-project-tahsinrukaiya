@@ -111,20 +111,20 @@ nav ul li a:hover{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
-.button_on_banner {
+.button_on_banner a {
+    text-decoration: none;
     background-color: white;
     border: none;
     color: #393E46;
-    padding: 15px 32px;
+    padding: 15px ;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
+    font-size: 20px;
     cursor: pointer;
     width: 200px;
   }
-  .button_on_banner:hover{
+ 
+  .button_on_banner:hover a{
     background: #393E46;
     color:#fff;
   }
@@ -396,4 +396,17 @@ color:#393E46;
   background: white;
   padding: 0 10px;
 }
+
+.top_navigation{
+  background-color: #393E46;
+  position: fixed;
+  top: 0;
+  left:0;
+  width:100%;
+  height: 200px;
+  padding: 10px, 90px;
+  box-sizing: border-box;
+  z-index: 2;  
+}
+
 }
