@@ -1,8 +1,6 @@
 //fetching data from rainydays API
-
 const jacket_url = "https://api.noroff.dev/api/v1/rainy-days";
-const products = document.getElementsByClassName(".products");
-
+const products = document.querySelectorAll(".products");
 
 async function getJackets() {
     //fetch function in use 
@@ -16,7 +14,7 @@ async function getJackets() {
         console.log(jacket[i].title);
         products.innerHTML += `
         <div class="product">
-        <img src="" alt="" class="product_image" ${jacket[i].price}>
+        <img src=${jacket[i].image} alt="" class="product_image"/>
         <h4 class="product_title">${jacket[i].title}</h4>
         <p class="product_price">${jacket[i].price}</p>
         <a href="productDetail.html" class="btn"></a>
